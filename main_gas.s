@@ -66,7 +66,7 @@
     
     # Sample data in memory - demonstrating data types
     number1:
-        .quad 42        # .quad = 64-bit integer (8 bytes, "quadword")
+        .quad 55        # .quad = 64-bit integer (8 bytes, "quadword")
                         # Stored in little-endian format
                         # In memory: 2A 00 00 00 00 00 00 00
                         # This occupies addresses number1 through number1+7
